@@ -1,0 +1,36 @@
+<link rel="import" href="../polymer/polymer-element.html">
+
+<dom-module id="simple-grid">
+  <template>
+    <style>
+      :host {
+        display: block;
+      }
+    </style>
+    <h2>Hello [[prop1]]!</h2>
+  </template>
+
+  <script>
+    /**
+     * `simple-grid`
+     * A simple solution to use Bootstrap grid system in Polymer components. Edit
+     *
+     * @customElement
+     * @polymer
+     * @demo demo/index.html
+     */
+    class SimpleGrid extends Polymer.Element {
+      static get is() { return 'simple-grid'; }
+      static get properties() {
+        return {
+          prop1: {
+            type: String,
+            value: 'simple-grid'
+          }
+        };
+      }
+    }
+
+    window.customElements.define(SimpleGrid.is, SimpleGrid);
+  </script>
+</dom-module>
