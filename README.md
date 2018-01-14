@@ -1,5 +1,4 @@
-[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)]
-(https://github.com/m-mansoor-ali/simple-grid/)
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/m-mansoor-ali/simple-grid/)
 
 `<simple-grid>`
 ===================
