@@ -12,5 +12,19 @@
   },
   "resolutions": {
     "polymer": "^2.0.0"
+  },
+  "demos": {
+    "Demo": "demo/index.html"
+  },
+  "keywords": [
+    "web-components",
+    "polymer",
+    "demo",
+    "simple-grid",
+    "bootstrap"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/m-mansoor-ali/simple-grid.git"
   }
 }

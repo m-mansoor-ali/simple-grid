@@ -1,21 +1,17 @@
-# \<simple-grid\>
+[![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)]
+(https://github.com/M-Mansoor-Ali/titanium-grid/)
 
-A simple solution to use Bootstrap grid system in Polymer components. Edit
+`<simple-grid>`
+===================
 
-## Install the Polymer-CLI
+A simple solution to use Bootstrap grid system in Polymer components.
 
-First, make sure you have the [Polymer CLI](https://www.npmjs.com/package/polymer-cli) installed. Then run `polymer serve` to serve your element locally.
+## Running demos and tests in browser
 
-## Viewing Your Element
+1. Fork the `simple-grid` repository and clone it locally.
 
-```
-$ polymer serve
-```
+1. Make sure you have [npm](https://www.npmjs.com/) installed.
 
-## Running Tests
+1. When in the `titanuim-grid` directory, run `npm install` and then `bower install` to install dependencies.
 
-```
-$ polymer test
-```
-
-Your application is already set up to be tested via [web-component-tester](https://github.com/Polymer/web-component-tester). Run `polymer test` to run your application's test suite locally.
+1. Run `polymer serve --open`, browser will automatically open the component API documentation.
