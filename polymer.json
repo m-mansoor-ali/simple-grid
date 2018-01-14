@@ -7,11 +7,11 @@
     "bower.json"
   ],
   "extraDependencies": [
-    "bower_components/webcomponentsjs/webcomponents-lite.js",
-    "bower_components/polymer/polymer.html",
-    "bower_components/polymer/polymer-element.html",
-    "bower_components/iron-demo-helpers/demo-pages-shared-styles.html",
-    "bower_components/iron-demo-helpers/demo-snippet.html"
+    "/bower_components/webcomponentsjs/webcomponents-lite.js",
+    "/bower_components/polymer/polymer.html",
+    "/bower_components/polymer/polymer-element.html",
+    "/bower_components/iron-demo-helpers/demo-pages-shared-styles.html",
+    "/bower_components/iron-demo-helpers/demo-snippet.html"
   ],
   "builds": [
     {
