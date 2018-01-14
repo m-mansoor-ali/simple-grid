@@ -1,30 +1,57 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <title>simple-grid demo</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-    <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
+  <title>simple-grid demo</title>
 
-    <link rel="import" href="../../iron-demo-helpers/demo-pages-shared-styles.html">
-    <link rel="import" href="../../iron-demo-helpers/demo-snippet.html">
-    <link rel="import" href="../simple-grid.html">
+  <script src="../bower_components/webcomponentsjs/webcomponents-lite.js"></script>
 
-    <custom-style>
-      <style is="custom-style" include="demo-pages-shared-styles">
-      </style>
-    </custom-style>
-  </head>
-  <body>
-    <div class="vertical-section-container centered">
-      <h3>Basic simple-grid demo</h3>
-      <demo-snippet>
-        <template>
-          <simple-grid></simple-grid>
-        </template>
-      </demo-snippet>
-    </div>
-  </body>
+  <link rel="import" href="../bower_components/iron-demo-helpers/demo-pages-shared-styles.html">
+  <link rel="import" href="../bower_components/iron-demo-helpers/demo-snippet.html">
+  <link rel="import" href="../simple-grid.html">
+
+  <custom-style>
+    <style is="custom-style" include="demo-pages-shared-styles">
+      simple-grid {
+        font-weight: 100;
+        margin-bottom: 20px;
+      }
+
+      simple-grid-row div {
+        border-style: dotted;
+        border-width: thin;
+        padding: 15px;
+      }
+    </style>
+  </custom-style>
+</head>
+
+<body>
+  <div class="vertical-section-container centered">
+    <h3>Basic simple-grid demo</h3>
+    <demo-snippet>
+      <template>
+        <simple-grid>
+          <simple-grid-row>
+            <div class="col-xs-12 col-lg-4">col-xs-12 col-lg-4</div>
+            <div class="col-xs-12 col-lg-4">col-xs-12 col-lg-4</div>
+            <div class="col-xs-12 col-lg-4">col-xs-12 col-lg-4</div>
+          </simple-grid-row>
+        </simple-grid>
+
+        <simple-grid>
+          <simple-grid-row>
+            <div class="col-sm-8">col-sm-8</div>
+            <div class="col-sm-4">col-sm-4</div>
+          </simple-grid-row>
+        </simple-grid>
+
+      </template>
+    </demo-snippet>
+  </div>
+</body>
+
 </html>
